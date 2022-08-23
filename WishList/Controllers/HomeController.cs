@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WishList.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class HomeController : Controller
     {
